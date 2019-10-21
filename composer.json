@@ -1,0 +1,24 @@
+{
+    "name": "kisschou/php-tdengine",
+    "description": "一款TDengine的操作脚本库，基于php7开发。",
+    "type": "l",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kisschou",
+            "email": "kiss_chou@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TDengine\\": "src/"
+        }
+    }
+}
